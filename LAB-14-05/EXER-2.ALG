@@ -13,12 +13,15 @@ Inicio
          leia (numeros[i,j])
       fimpara
    fimpara
-   
+
    para j de 1 ate 3 faca
       soma[j]:= 0
-       para i de 1 ate 3 faca
-           soma[j] := numeros [i,j]
-       fimpara
+      para i de 1 ate 3 faca
+         soma[j] := numeros [i,j]
+      fimpara
+   fimpara
+   para i de 1 ate 3 faca
+      escreval (" A soma da ", i , "coluna é: ", soma[i])
    fimpara
 
 
